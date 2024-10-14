@@ -6,9 +6,9 @@ public class OurClass {
     // throws : 던지다(예외를 던지다)
 
     public void thisMethodIsDangerous () throws OurbadException {
-        //custom logic
+        //custom logic!!
         if(just){
-            throw new OurbadException();
+            throw new OurbadException();/
         }
     }
 }
