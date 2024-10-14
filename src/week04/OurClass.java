@@ -7,6 +7,8 @@ public class OurClass {
 
     public void thisMethodIsDangerous () throws OurbadException {
         //custom logic
-
+        if(just){
+            throw new OurbadException();
+        }
     }
 }
